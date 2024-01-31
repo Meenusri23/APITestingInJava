@@ -1,0 +1,41 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>API_Testing</groupId>
+  <artifactId>API_Testing</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.16.1</version>
+</dependency>
+
+  
+  
+      <!-- Pull in as a traditional dependency -->
+<dependency>
+   <groupId>com.mashape.unirest</groupId>
+   <artifactId>unirest-java</artifactId>
+   <version>1.4.9</version>
+</dependency>
+</dependencies>
+
+
+  <build>
+<!-- https://mvnrepository.com/artifact/com.konghq/unirest-java-core -->
+
+
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>21</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
